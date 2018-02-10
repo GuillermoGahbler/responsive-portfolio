@@ -12,65 +12,59 @@
 
 <!--ALL CONTENT BEGINS  -->
     <div>
-        <!--HEADER WRAPPER -->
-        <div>    
-            <div>  
-               <!-- Name container begins -->
-                <header>
-                    <div>
-                        <h4  id="nameHeader">
-                             Guillermo Gahbler
-                        </h4>
-                    </div>    
-                </header>
-                <!-- end name container -->
-
-                <!-- Links about portfolio contact begins -->
-                <ul>
+<!--HEADER WRAPPER -->
+        <div class="headwrapper"> 
+            <div id="name">
+                Guillermo Gahbler
+            </div>    
+                <ul class="clearfix">
+                <div id="aboutnav"> <!--div for ul-->
                     <li>
                     <a class="nav-link text-muted" href="index.html">About</a>
                     </li>    
+                    
                     <li>
                     <a class="nav-link text-muted" href="portfolio.html">Portfolio</a>
                     </li>    
+                    
                     <li>
                     <a class="nav-link text-muted" href="contact.html">Contact</a>
                     </li>
+                </div> <!--div for ul-->
                 </ul>
-                <!-- end links about portfolio contact -->
-            </div>
-        </div>        
-    <!--END HEADER WRAPPER-->
+            </div> 
+<!--END HEADER WRAPPER-->
 
 
     <!--MAIN CONTENT BEINGS-->
-        <div>
+        <div class="clearfix color">
             <!-- About me container begins -->
-            <div class="filling"> <!--expr div -->
+            <div class="filling clearfix"> <!-- expr div -->
             <section id="Wrapper">
                 <h3>
                     About me
                 </h3>
-                    <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="image of me">
-                    <p>
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    <div id="imagebox" class="clearfix"> <!--image container-->
+                        <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="image of me">
+                        <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 
-                    </p>
-                    <p>
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                        <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 
-                    </p>    
-                    
+                        </p>    
+                    </div> <!--image container--> 
             </section>
             <!-- about me container end -->
 
             <!-- Connect with me container begin -->
             <aside>
-                <h4>
+                <div class="connect">
                     Connect with me
-                </h4>
+                </div>
                     <div>
                     <img src="assets/images/github.svg" alt="guthub link" style="width:70px; height:70px;">
                     <img src="assets/images/stack.svg" alt="stackoverflowlink" style="width:70px; height:70px;">   
@@ -79,7 +73,7 @@
             </aside>
             <!--end connect with me container-->
         </div>
-    </div> <!--expr div end-->
+     </div> <!--expr div end -->
     <!--END MAIN CONTENT-->
  
     </div>
