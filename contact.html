@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guillermo Bootstrap-Portfolio</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <style>
+     body {
+         background: url("assets/images/background.png")
+         
+     }
+
+     html, body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      .content {
+        flex: 1 0 auto;
+      }
+
+      footer {
+          text-align: center;
+          background-color: grey;
+        
+      }
+     
+ </style>
+
+
+</head>
+<body>
+
+<!--ALL CONTENT BEGINS  -->
+    <div class="content">
+        <!--HEADER WRAPPER -->
+        <div class="header-wrapper col-12 p-0 bg-white">    
+            <div class="container col-md-11 col-lg-10 clearfix bg-white"> <!--note the md was set 12 but can be 11-->
+               <!-- Name container begins -->
+                <header class="col-12 col-md-6  float-left">
+                    <div class="col-6">
+                        <h4 class="col-md-12 mb-0 bg-info text-white">
+                                    Guillermo Gahbler
+                        </h4>
+                    </div>    
+                </header>
+                <!-- end name container -->
+
+                <!-- Links about portfolio contact begins -->
+                <nav class="nav col-12 col-md-6 mt-3 pl-5 float-right bg-white">
+                            <a class="nav-link text-muted" href="index.html">About</a>
+                            <a class="nav-link text-muted" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link text-muted" href="contact.html">Contact</a>
+                </nav>
+                <!-- end links about portfolio contact -->
+            </div>
+        </div>        
+    <!--END HEADER WRAPPER-->
+
+
+    <!--MAIN CONTENT BEINGS-->
+        <div class="container col-lg-10 col-md-11 mt-4 clearfix"> <!--added col-md-11 to align-->
+            <!-- About me container begins -->
+            <section class="float-lg-left bg-white  mb-md-4 col-lg-5 mb-lg-4   clearfix">
+                <h3 class="text-info">
+                    About me
+                </h3>
+                    <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="image of me" class="float-md-left float-lg-none pr-md-3 col-md-6 col-lg-12">
+                    <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+                    </p>
+                    <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+                    </p>    
+                    
+            </section>
+            <!-- about me container end -->
+
+            <!-- Connect with me container begin -->
+            <aside class="float-lg-right  mb-md-4 col-lg-4  bg-white">
+                <h4 class="text-center text-info">
+                    Connect with me
+                </h4>
+                    <div class="">
+                    <img src="assets/images/github.svg" alt="guthub link" style="width:70px; height:70px;">
+                    <img src="assets/images/stack.svg" alt="stackoverflowlink" style="width:70px; height:70px;">   
+                    <img src="assets/images/link.svg" alt="linkedin link" style="width:70px; height:70px;">
+                    </div>    
+            </aside>
+            <!--end connect with me container-->
+        </div>
+    <!--END MAIN CONTENT-->
+ 
+    </div>
+<!--END ALL CONTENT DIV  -->    
+    
+    <!--Sticky footer below -->
+    <footer class="footer">
+        footer
+    </footer>
+    
+</body>
+</html>

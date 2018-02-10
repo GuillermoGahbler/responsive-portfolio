@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Header container */
+#nameHeader {
+    background-color: teal;
+    color: white;
+    margin: 0%;
+    padding: 2%;
+    font-size: 25px;
+}
+
+ul {
+      
+     margin-bottom: 0%; 
+     padding-bottom: 3%
+}
+
+li {
+    display: inline-block;
+    
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: grey; 
+}
+
+
+/* maint content container */
+
+.filling {
+    background-color: lightgrey;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* section css */
+#Wrapper {
+    background-color:white;
+    width: 80%;
+    margin: auto;
+    padding: 3%
+
+    
+}
+
+h3 {
+    background-color: white;
+    text-align: left;
+    font-size: 25px;
+    border-bottom: 2px solid lightgrey;
+}
+
+section img {
+    width: 100%;
+
+}
+
+/* aside css */
+
+aside {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 3%;
+    
+    
+}
+
+footer {
+    background-color: grey;
+    
+    border-top: 10px solid teal; 
+    padding: 4%;
+    color: lightgrey;
+}
+
+h4 {
+    background-color: white;
+    text-align: left;
+    font-size: 25px;
+    border-bottom: 2px solid lightgrey; 
+    
+    
+}
+
+@media (min-width: 768px;){
+
+    #box1 {
+        float: left;
+    }
+
+    ul {
+        float: right;
+    }
+    
+    #top {
+        
+    }
+
+}
